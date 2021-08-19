@@ -38,20 +38,11 @@ function cookies(functions) {
     });
 }
 
-function gtag() {
-    dataLayer.push(arguments);
-}
-
 function necessary() {
     console.log('Funções necessárias');
 }
 function analytics() {
-    /* Global site tag (gtag.js) - Google Analytics */
-    async src = 'https://www.googletagmanager.com/gtag/js?id=G-DZZ8VKD6HJ';
-    window.dataLayer = window.dataLayer || [];
-    gtag('js', new Date());
-    gtag('config', '<?php SEGMENT_GL_ANALYTICS_UA ?>');
-    console.log('Função de analytics');
+    console.log('Funções analytics');
 }
 
 function marketing() {
